@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.base", //used to specify which config file this one extends (this one sits one directory higher which is why we use ..)
+  "compilerOptions": {
+    "removeComments": true 
+  },
+  "include": ["./**/*"] // . so it looks in current directory followed by two astrix which tell it to search recursively through all subdirectories
+  // * so that it looks for all files
+}
